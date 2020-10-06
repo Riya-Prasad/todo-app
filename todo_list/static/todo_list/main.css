@@ -1,0 +1,45 @@
+
+body {
+	background: #000046;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.striker {
+	text-decoration: line-through;
+	color: #e8505b;
+}
+
+
+.brand{
+	padding-left: 450px;
+	font-size: 2.25rem;
+	color: #132743;
+}
+
+
+.brand:hover{
+	color: #70adb5;
+	text-decoration: none;
+}
+
+.form-control {
+    padding-right: 35.55rem;
+
+}
+
+.btn btn-outline-secondary{
+	display: flex;
+}
+
+
+a{
+    text-align: center;
+	color:#132743;
+}
+
+a:hover {
+    color: #9ab3f5;
+    text-decoration: none;
+}
