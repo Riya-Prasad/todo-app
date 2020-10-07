@@ -20,7 +20,7 @@ body {
 
 
 .brand:hover{
-	color: #f25d9c;
+	color: #d59bf6;
 	text-decoration: none;
 }
 
@@ -35,17 +35,18 @@ body {
 
 .btn{
 	background-color: transparent;
-	color: #f25d9c;
-	border: 1px #f6416c;
-	border-radius: 5px;
+	color: white;
+	border: 0.9px solid #f6416c;
+	border-radius: 7px;
 }
 
 .btn:hover{
-	background-color:#9e579d;
+	background-color:#e23e57;
 	color: white;
 }
 
 a{
+	font-size: 1.03rem;
     text-align: center;
 	color:#fafafa;
 }
