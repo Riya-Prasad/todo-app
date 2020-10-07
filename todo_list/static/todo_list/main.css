@@ -1,8 +1,8 @@
 
 body {
-	background: #000046;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #c31432;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -14,13 +14,13 @@ body {
 
 .brand{
 	padding-left: 450px;
-	font-size: 2.25rem;
-	color: #132743;
+	font-size: 3rem;
+	color: #f57170;
 }
 
 
 .brand:hover{
-	color: #70adb5;
+	color: #f25d9c;
 	text-decoration: none;
 }
 
@@ -33,13 +33,24 @@ body {
 	display: flex;
 }
 
+.btn{
+	background-color: transparent;
+	color: #f25d9c;
+	border: 1px #f6416c;
+	border-radius: 5px;
+}
+
+.btn:hover{
+	background-color:#9e579d;
+	color: white;
+}
 
 a{
     text-align: center;
-	color:#132743;
+	color:#fafafa;
 }
 
 a:hover {
-    color: #9ab3f5;
+    color: #574b90;
     text-decoration: none;
 }
